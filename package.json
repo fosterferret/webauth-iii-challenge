@@ -4,6 +4,8 @@
   "description": "## Topics",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "server": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +20,8 @@
   },
   "homepage": "https://github.com/fosterferret/webauth-iii-challenge#readme",
   "devDependencies": {
-    "eslint": "^6.6.0"
+    "eslint": "^6.6.0",
+    "nodemon": "^1.19.4"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
