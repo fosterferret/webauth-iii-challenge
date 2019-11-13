@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon",
+    "make": "npx knex migrate:make",
+    "latest": "npx knex migrate:latest",
+    "makeseed": "npx knex seed:make",
+    "runseed": "npx knex seed:run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
